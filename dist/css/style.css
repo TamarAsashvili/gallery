@@ -95,6 +95,15 @@ img {
   margin: 1rem;
 }
 
+/* section b */
+
+.section-b {
+  position: relative;
+  background: url("https://picsum.photos/id/858/200/201") no-repeat bottom
+    center/cover;
+  height: 600px;
+}
+
 /* utilities */
 
 .btn {
