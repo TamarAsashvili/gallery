@@ -16,6 +16,7 @@
       href="https://fonts.googleapis.com/css?family=Catamaran&display=swap"
       rel="stylesheet"
     />
+
     <title>photos</title>
   </head>
   <body id="home">
@@ -85,11 +86,34 @@
       </div>
     </section>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/simple-lightbox.min.js"></script>
+    <footer class="section-footer">
+      <div class="container">
+        <div>
+          <h2>Lorem ipsum dolor sit.</h2>
+          <a href="http://twitter.com">
+            <i class="fab fa-twitter fa-2"></i>
+          </a>
+          <a href="http://facebook.com">
+            <i class="fab fa-facebook fa-2"></i>
+          </a>
+          <a href="http://youtube.com">
+            <i class="fab fa-youtube fa-2"></i>
+          </a>
+        </div>
+        <div>
+          <h3>
+            Company info
+          </h3>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="../dist/js/simple-lightbox.min.js"></script>
+
     <script>
       $(function() {
-        const $gallery = $(".gallery a").simpleLightbox();
+        const $gallery = $(".gallery").simpleLightbox();
       });
     </script>
   </body>
