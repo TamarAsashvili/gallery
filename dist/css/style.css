@@ -74,6 +74,7 @@ img {
   color: #555;
 }
 
+/* section A */
 .section-a {
   margin: 2rem 0;
 }
@@ -95,13 +96,25 @@ img {
   margin: 1rem;
 }
 
-/* section b */
+/* section B */
 
 .section-b {
   position: relative;
-  background: url("https://picsum.photos/id/858/200/201") no-repeat bottom
-    center/cover;
+  background: url("/dist/img/book.jpg") no-repeat bottom center/cover;
   height: 600px;
+}
+
+.section-b-inner {
+  color: rgb(49, 2, 2);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  max-width: 860px;
+  padding: 5rem 0;
 }
 
 /* utilities */
@@ -119,4 +132,13 @@ img {
 
 .btn:hover {
   background: var(--secondary-color);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--overly-color);
 }
