@@ -100,7 +100,8 @@ img {
 
 .section-b {
   position: relative;
-  background: url("/dist/img/book.jpg") no-repeat bottom center/cover;
+  background: url("https://picsum.photos/id/501/400/401") no-repeat bottom
+    center/cover;
   height: 600px;
 }
 
